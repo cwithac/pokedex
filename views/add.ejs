@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ../views/partials/head %>
+    <title>Pokedex</title>
+  </head>
+  <body class="container">
+    <form action="/pokemon" method="POST">
+      <h4>Name:</h4> <input type="text" name="name" />
+                     <br/>
+      <h4>Type:</h4> <input type="text" name="type" />
+                     <input type="text" name="type" />
+                     <br/>
+      <h4>Stats:</h4> <input type="text" name="stats" placeholder="hp" />
+                      <input type="text" name="stats" placeholder="attack" />
+                      <input type="text" name="stats" placeholder="defense" />
+                      <input type="text" name="stats" placeholder="spattack" />
+                      <input type="text" name="stats" placeholder="spdefense" />
+                      <input type="text" name="stats" placeholder="speed" />
+                     <br/>
+      <h4>Image:</h4> <input type="text" name="img" placeholder="image address" />
+      <br/>
+      <input type='submit' class="button-primary" value="Add Pokemon to Pokedex"/>
+      <br/>
+      <a href="/pokemon/">Return Home</a>
+    </form>
+  </body>
+</html>

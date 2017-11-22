@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ../views/partials/head %>
+    <title>Pokedex</title>
+  </head>
+  <body class="container">
+  <h1><%=data.name%></h1>
+  <img src="<%=data.img; %>"</img>
+  <h4>Type</h4>
+  <ul>
+    <% for (var i = 0; i <data.type.length; i++) { %>
+      <li><%-data.type[i] %></li>
+    <% } %>
+  </ul>
+  <br/>
+  <h4>Stats</h4>
+  <ul>HP: <%=data.stats.hp%></ul>
+  <ul>Attack: <%=data.stats.attack%></ul>
+  <ul>Defense: <%=data.stats.defense%></ul>
+  <ul>SPAttack: <%=data.stats.spattack%></ul>
+  <ul>SPDefense: <%=data.stats.spdefense%></ul>
+  <ul>Speed: <%=data.stats.speed%></ul>
+  <br/>
+  <form action="/pokemon/<%= index %>?_method=DELETE" method="POST">
+    <input type="submit" class="button-primary" value="Delete <%=data.name%> from Pokedex"/>
+  </form>
+  <a href="/pokemon/<%= index %>/edit">Edit <%=data.name%> in Pokedex</a><br/>
+  <a href="/pokemon/">Return Home</a>
+  </body>
+</html>
