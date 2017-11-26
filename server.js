@@ -1,13 +1,11 @@
-var express    = require('express'),
-    app        = express(),
-    bodyParser = require('body-parser'),
-    methodOverride = require('method-override'),
-    Pokemon    = require('./models/pokemon.js');
+const express    = require('express');
+const app        = express();
+const methodOverride = require('method-override');
+const Pokemon    = require('./models/pokemon.js');
 
-    var port = 3000;
+const PORT = 3000;
 
 app.use(express.static('public'));
-app.use(bodyParser.urlencoded({extended:false}));
 app.use(methodOverride('_method'));
 
 //===================================================//
@@ -75,6 +73,6 @@ app.delete('/pokemon/:index', function(req, res) {
 });
 
 //Listener
-app.listen(port, function() {
-  console.log("Pokedex App is listening to port " + port + ".");
+app.listen(PORT, function() {
+  console.log("Pokedex App is listening to port " + PORT + ".");
 });
