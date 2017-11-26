@@ -22,10 +22,10 @@
   <ul>SPDefense: <%=data.stats.spdefense%></ul>
   <ul>Speed: <%=data.stats.speed%></ul>
   <br/>
-  <form action="/pokemon/<%= index %>?_method=DELETE" method="POST">
+  <form action="/<%= index %>?_method=DELETE" method="POST">
     <input type="submit" class="button-primary" value="Delete <%=data.name%> from Pokedex"/>
   </form>
-  <a href="/pokemon/<%= index %>/edit">Edit <%=data.name%> in Pokedex</a><br/>
-  <a href="/pokemon/">Return Home</a>
+  <a href="/<%= index %>/edit">Edit <%=data.name%> in Pokedex</a><br/>
+  <a href="/">Return Home</a>
   </body>
 </html>

@@ -5,7 +5,7 @@
     <title>Pokedex</title>
   </head>
   <body class="container">
-  <form action="/pokemon/<%=index%>?_method=PUT" method="POST">
+  <form action="/<%=index%>?_method=PUT" method="POST">
       <h4>Name:</h4> <input type="text" name="name" value="<%=data.name%>"/>
                      <br/>
       <h4>Type:</h4> Type #1: <input type="text" name="type" value="<%=data.type%>"/>
@@ -23,6 +23,6 @@
       <br/>
       <input type='submit' class="button-primary" value="Edit <%=data.name%> Information"/>
     </form>
-        <a href="/pokemon/">Return Home</a>
+        <a href="/">Return Home</a>
   </body>
 </html>
