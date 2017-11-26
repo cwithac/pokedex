@@ -1,6 +1,6 @@
 # Pokedex: Pokemon Gotta Catch 'em All!
 
-![pokedex](https://i.imgur.com/Qo6i5Xh.png)
+![pokedex](https://i.imgur.com/32aNAss.png)
 
 [Repo](https://github.com/cwithac/pokedex) + [Live Site](https://pokemon-catchemall.herokuapp.com/)
 
@@ -22,6 +22,8 @@ _Non-persisting data, no database attached, content will return to initial load 
 - Content organization
 - User interface improvements
 - Complete content from model on show page
+- Responsive Design
+- Improvement of model content (images)
 
 ### Resources
 
