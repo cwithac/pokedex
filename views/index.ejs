@@ -14,7 +14,11 @@
   <div class='container'>
       <ul>
           <% for (var i = 0; i < data.length; i++) { %>
-              <a href="/<%=i%>"><img id="index" src="<%=data[i].img; %>"></img></a>
+              <div class="wrapper">  
+                <a href="/<%=i%>">
+                  <img id="index" src="<%=data[i].img; %>"></img>
+                </a>
+              </div>
          <% } %>
       </ul>
   </div>
