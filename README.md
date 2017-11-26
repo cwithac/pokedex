@@ -14,7 +14,7 @@ Skeleton Framework
 
 ```
 
-_Non-persisting data, no database attached, content will return to initial load upon server refresh. Full CRUD._
+_Non-persisting data, no database attached, content will return to initial load upon server restart. Full CRUD._
 
 ### Future Improvements
 
@@ -25,7 +25,7 @@ _Non-persisting data, no database attached, content will return to initial load 
 
 ### Resources
 
-[Model Content](https://pokemondb.net/pokedex)
-[Gotta Catch Em All](https://en.wikipedia.org/wiki/Gotta_Catch_%27Em_All)
+- [Model Content](https://pokemondb.net/pokedex)
+- [Gotta Catch Em All](https://en.wikipedia.org/wiki/Gotta_Catch_%27Em_All)
 
 _Original concept by [Thom Page](https://github.com/singular000), General Assembly_
