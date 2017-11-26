@@ -14,11 +14,15 @@
   <div class='container'>
       <ul>
           <% for (var i = 0; i < data.length; i++) { %>
-              <div class="wrapper">  
+
                 <a href="/<%=i%>">
+                  <div class="wrapper">
                   <img id="index" src="<%=data[i].img; %>"></img>
+                  </br>
+                  <span class="names"><%=data[i].name%></span>
+                  </div>
                 </a>
-              </div>
+
          <% } %>
       </ul>
   </div>
