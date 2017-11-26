@@ -4,16 +4,17 @@
     <% include ../views/partials/head %>
     <title>Pokedex</title>
   </head>
-<body class='container'>
-<img id="logo" src="/images/logo.png"></img><br/>
-<a href="/add">Add a Pokemon to the Pokedex</a>
-<p>There are <%=data.length%> Pokemon in the Pokedex</p>
-<div>
-    <ul>
-        <% for (var i = 0; i < data.length; i++) { %>
-            <a href="/<%=i%>"><img id="index" src="<%=data[i].img; %>"></img></a>
-       <% } %>
-    </ul>
-</div>
+<body >
+  <header>
+    <a href="/add">Add a Pokemon to the Pokedex</a>
+    <p>There are <%=data.length%> Pokemon in the Pokedex</p>
+  </header>
+  <div class='container'>
+      <ul>
+          <% for (var i = 0; i < data.length; i++) { %>
+              <a href="/<%=i%>"><img id="index" src="<%=data[i].img; %>"></img></a>
+         <% } %>
+      </ul>
+  </div>
   </body>
 </html>
