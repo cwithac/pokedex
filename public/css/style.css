@@ -27,19 +27,25 @@ img {
 }
 
 #index {
-  max-width: 50px;
+  max-width: 55px;
   border: 2px solid #FFFFFF;
-  vertical-align: text-top;
   box-shadow: 0 0 20px #FFFFFF;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .wrapper {
-  width: 150px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   display: inline-block;
   background-color: #FFFFFF;
   margin: 1%;
   border-radius: 20px;
+  position: relative;
 }
 
 .wrapper:hover {
@@ -102,9 +108,9 @@ form {
   margin-bottom: 2%;
 }
 
-.names {
+/*.names {
   font-size: .1em;
   z-index: 99;
   position: absolute;
   color: #111111;
-}
+}*/

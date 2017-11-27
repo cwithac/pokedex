@@ -12,19 +12,15 @@
     <p>There are <%=data.length%> Pokemon in the Pokedex</p>
   </header>
   <div class='container'>
-      <ul>
           <% for (var i = 0; i < data.length; i++) { %>
-
                 <a href="/<%=i%>">
                   <div class="wrapper">
                   <img id="index" src="<%=data[i].img; %>"></img>
-                  </br>
-                  <span class="names"><%=data[i].name%></span>
+                  <!-- </br> -->
+                  <!-- <span class="names"><%=data[i].name%></span> -->
                   </div>
                 </a>
-
          <% } %>
-      </ul>
   </div>
   </body>
 </html>
