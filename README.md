@@ -2,6 +2,8 @@
 
 ![pokedex](https://i.imgur.com/UMCzPLB.png)
 
+![pokedex2](https://i.imgur.com/KE63fc0.png)
+
 [Repo](https://github.com/cwithac/pokedex) + [Live Site](https://pokemon-catchemall.herokuapp.com/)
 
 ```
