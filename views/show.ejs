@@ -7,6 +7,7 @@
   <body class="container">
   <h1>The Pokedex</h1>
   <h6>Gotta Catch 'em All!</h6>
+
   <h1><%=data.name%></h1>
   <img src="<%=data.img; %>"</img>
   <h4>Type</h4>
@@ -24,10 +25,12 @@
   <ul>SPDefense: <%=data.stats.spdefense%></ul>
   <ul>Speed: <%=data.stats.speed%></ul>
   <br/>
-  <form action="/<%= index %>?_method=DELETE" method="POST">
-    <input type="submit" class="button-primary" value="Delete <%=data.name%> from Pokedex"/>
-  </form>
-  <a class="button-primary edit" href="/<%= index %>/edit">Edit <%=data.name%> in Pokedex</a><br/>
-  <a href="/">Return Home</a>
+    <div class="row">
+      <form class="four columns" action="/<%= index %>?_method=DELETE" method="POST">
+        <input type="submit" class="button-primary edit" value="Delete <%=data.name%> from Pokedex"/>
+      </form>
+      <a class="four columns button-primary edit" href="/<%= index %>/edit">Edit <%=data.name%> in Pokedex</a>
+      <a class="four columns button-primary edit" href="/">⬿ Return Home</a>
+    </div>
   </body>
 </html>

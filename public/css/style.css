@@ -102,6 +102,10 @@ form {
   margin-bottom: 2%;
 }
 
+.edit:hover {
+  color: #FF4136 !important;
+}
+
 .names {
   font-size: .35em;
   color: #111111;
@@ -113,4 +117,12 @@ form {
 
 .all {
   display: inline-block;
+}
+
+.return-home {
+  font-size: 1em;
+}
+
+h6 {
+  margin: 0;
 }
