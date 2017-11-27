@@ -13,11 +13,11 @@
   </header>
   <div class='container'>
           <% for (var i = 0; i < data.length; i++) { %>
-                <a href="/<%=i%>">
+                <a class="all" href="/<%=i%>">
+                  <div class="names"><%=data[i].name%></div>
                   <div class="wrapper">
-                  <img id="index" src="<%=data[i].img; %>"></img>
-                  <!-- </br> -->
-                  <!-- <span class="names"><%=data[i].name%></span> -->
+                    <img id="index" src="<%=data[i].img; %>">
+                    </img>
                   </div>
                 </a>
          <% } %>
