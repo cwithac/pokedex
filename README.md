@@ -1,6 +1,6 @@
 # Pokedex: Pokemon Gotta Catch 'em All!
 
-![pokedex](https://i.imgur.com/32aNAss.png)
+![pokedex](https://i.imgur.com/UMCzPLB.png)
 
 [Repo](https://github.com/cwithac/pokedex) + [Live Site](https://pokemon-catchemall.herokuapp.com/)
 
