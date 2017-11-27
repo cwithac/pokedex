@@ -23,7 +23,6 @@ _Non-persisting data, no database attached, content will return to initial load 
 - User interface improvements
 - Complete content from model on show page
 - Responsive Design
-- Improvement of model content (images)
 
 ### Resources
 
